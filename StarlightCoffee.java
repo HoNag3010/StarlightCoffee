@@ -48,10 +48,7 @@ public class StarlightCoffee {
         // If else for user's membership discount
 
         System.out.println("");
-        System.out.println("What size tip would you like to leave?");
-        System.out.println("1. Good service - 10%");
-        System.out.println("2. Great service - 15%");
-        System.out.println("3. Outstanding service - 20%");
+        System.out.println("What size tip would you like to leave?\n1. Good service - 10%\n2. Great service - 15%\n3. Outstanding service - 20%");
         System.out.print("Enter the number of your choice: ");
         int tipChoice = scan.nextInt();
         System.out.println("");
